@@ -26,4 +26,9 @@
             <li><a href="mainpage.html" class="homepage">Home</a></li>
         </div>
 </body>
+<script>
+    let u = localStorage.getItem('user');
+    let data = JSON.parse(u);
+    document.getElementById('account').textContent = data['username'];
+</script>
 </html>
