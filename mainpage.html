@@ -29,6 +29,7 @@
 <script>
     let u = localStorage.getItem('user');
     let data = JSON.parse(u);
-    document.getElementById('account').textContent = data['username'];
+
+    document.getElementById('person-account').textContent = data['username'];
 </script>
 </html>
