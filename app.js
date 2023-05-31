@@ -1,12 +1,14 @@
 function registrationB(){
+    var fullname = document.querySelector('#regname');
     var username = document.querySelector('#reguser');
     var password = document.querySelector('#regpass');
     var email = document.querySelector('#regemail');
 
-    if(username.value == '' || password.value == '' || email.value == ''){
+    if(fullname.value == '' ||username.value == ''|| password.value == '' || email.value == ''){
         alert('Please input what is required!');
     } else {
         var user = {
+            fullname: fullname.value,
             username: username.value,
             password: password.value,
             email: email.value
@@ -17,6 +19,7 @@ function registrationB(){
         localStorage.setItem('user', json);
         console.log('User Added');
         alert('You are now registered! Click ok to continue');
+        fullname.value = '';
         username.value = '';
         password.value = '';
         email.value = '';
