@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.section{
+     
+    background-image: url('/WEBFINALPIT/images/aboutusbg.png');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    ;
+}
+.section .navlogo {
+    height: 100%;
+    background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+.container{
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section .content{
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+    flex-direction: column;
+} 
+.content-section{
+    
+    width: 55%;
+    
+}
+
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+    color: whitesmoke;
+}
+
+.content-section .content h3{
+    color: #4bffa5;
+    margin-top: 20px;
+    font-size: 33px;
+
+}
+
+.content-section .content p{
+    color: whitesmoke;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-size: larger;
+    line-height: 1.5;
+    text-align: justify;
+    
+   
+    
+    
+}
+
+.content-section .content a{
+    color: #4bffa5;
+    margin-top: 20px;
+    font-size: 23px;
+    position: absolute;
+    bottom: 190px;
+
+}
+
+.section .container .socail-link{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    position: absolute;
+    bottom: 110px;
+    display: flex;
+}
+.section .container .socail-link a i{
+    width: 45px;
+    height: 45px;
+    background-color: #242424;
+    border: 2px solid #4bffa5;
+    color: #4bffa5;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.section .container .socail-link a i:hover{
+    color: #242424;
+    background-color: #4bffa5;
+    box-shadow: 0 0 10px #4bffa5;
+}
