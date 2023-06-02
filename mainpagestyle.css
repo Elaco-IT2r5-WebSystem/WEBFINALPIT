@@ -1,0 +1,31 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+.hero{
+background-image: url('./images/japanese-streetwallpaperflare.com_wallpaper.jpg');
+ height: 100vh;
+}
+        .navigation-bar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+        }
+
+        ul a {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          padding:0 10px;
+          line-height:22px;
+          text-align:left;
+           white-space:nowrap;
+        }
+        
+        li {
+          display: inline;
+          font-size: 48px;
+        }
