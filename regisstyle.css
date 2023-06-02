@@ -1,0 +1,29 @@
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navigation-bar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .hero{
+             background-image: url('./images/steamcommunity.gif');
+             background-size: cover;
+            height: 100vh;
+             background-repeat: no-repeat;
+        }
+
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+        
+        li {
+          display: inline;
+          font-size: 48px;
+          margin-left: 35px;
+        }
