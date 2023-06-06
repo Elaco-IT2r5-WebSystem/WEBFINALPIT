@@ -6,9 +6,9 @@
 
         .hero{
              background-image: url('./images/steamcommunity.gif');
-    background-size: cover;
-    height: 100vh;
-    background-repeat: no-repeat;
+              background-size: cover;
+              height: 100vh;
+              background-repeat: no-repeat;
         }
 
         .navigation-bar {
@@ -27,4 +27,34 @@
           display: inline;
           font-size: 48px;
           margin-left: 35px;
+        }
+        .login-navigation{
+          background-color: rgba(51, 95, 253, 0.8);
+	        border-radius: 5px;
+	        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+	        padding: 20px;
+	        position: absolute;
+	        top: 50%;
+	        left: 50%;
+	        transform: translate(-50%, -50%);
+	        height: 400px;
+          width: 300px;
+         
+        }
+        .login-header{
+          display: flex;
+          font-size: 30px;
+
+        }
+        .login-body{
+          display: flex;
+        }
+
+        .login-button
+        .login-input{
+          	border-radius: 5px;
+	          border: none;
+	          font-size: 16px;
+	          margin-bottom: 10px;
+	          padding: 10px;
         }

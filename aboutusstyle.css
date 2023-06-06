@@ -12,7 +12,7 @@
 
 .section{
      
-    background-image: url('/WEBFINALPIT/images/aboutusbg.png');
+    background-image: url('./images/aboutusbg.png');
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;

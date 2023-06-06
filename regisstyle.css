@@ -16,6 +16,8 @@
              background-repeat: no-repeat;
         }
 
+
+
         ul {
           list-style-type: none;
           margin: 0;
@@ -26,4 +28,35 @@
           display: inline;
           font-size: 48px;
           margin-left: 35px;
+        }
+
+        .registration-navigation{
+          background-color: rgba(231, 173, 48, 0.9);
+	        border-radius: 5px;
+	        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+	        padding: 20px;
+	        position: absolute;
+	        top: 50%;
+	        left: 50%;
+	        transform: translate(-50%, -50%);
+	        height: 400px;
+          width: 300px;
+         
+        }
+        .registration-header{
+          display: flex;
+          font-size: 30px;
+
+        }
+        .registration-body{
+          display: flex;
+        }
+
+        .registration-button
+        .registration-input{
+          	border-radius: 5px;
+	          border: none;
+	          font-size: 16px;
+	          margin-bottom: 10px;
+	          padding: 10px;
         }
