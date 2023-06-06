@@ -30,3 +30,13 @@ li {
     margin-left: 35px;
     text-transform: capitalize;
 }
+.shopping-grid{
+  margin-left:  6rem;
+  margin-right:  6rem;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #43397c;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.item10 .img {size: 52,52;}
