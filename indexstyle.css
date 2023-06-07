@@ -35,8 +35,11 @@ li {
   margin-right:  6rem;
   display: flex;
   justify-content: space-evenly;
-  background-color: #43397c;
+  
   flex-wrap: wrap;
   align-content: flex-start;
 }
-.item10 .img {size: 52,52;}
+.shopping-grid h3,
+.shopping-grid p {
+  color: white;
+}
